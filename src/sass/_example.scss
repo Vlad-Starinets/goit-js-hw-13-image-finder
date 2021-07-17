@@ -1,0 +1,76 @@
+body {
+  max-width: 1400px;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.search-form {
+  padding-top: 50px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 100%;
+  border-color: rgb(15, 19, 233);
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &-item {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .photo-card {
+    background-color: rgb(23, 8, 228);
+    padding: 0 10px;
+  }
+
+  .photo {
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .stats-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .material-icons {
+    height: 30px;
+  }
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(63, 15, 236);
+  box-shadow: 0 -3px rgb(22, 18, 233) inset;
+  transition: 0.2s;
+}
+
+.btn:hover { background: rgb(46, 33, 240); }
+.btn:active {
+  background: rgb(19, 22, 221);
+  box-shadow: 0 3px rgb(28, 13, 228) inset;
+}
