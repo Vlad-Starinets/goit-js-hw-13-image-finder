@@ -42,5 +42,5 @@ function newImage() {
     fetchImage.getImage().then(renderCard);
 }
 
-refs.input.addEventListener('input', debounce(addImage, 2000));
+refs.input.addEventListener('input', debounce(addImage, 500));
 refs.button.addEventListener('click', newImage);
